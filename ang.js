@@ -5,8 +5,12 @@ myApp.config(function($routeProvider){
      templateUrl: 'pages/main.html',
      controller: 'mainController'
   })
-    .when('/second',{
-     templateUrl: 'pages/second.html',
+    .when('/information',{
+     templateUrl: 'pages/information.html',
+     controller: 'mainController'
+  })
+    .when('/about',{
+     templateUrl: 'pages/about.html',
      controller: 'mainController'
   })
 });
